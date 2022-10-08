@@ -78,7 +78,7 @@
 
 <br>
 
- ## _**Bootstrap breakpoints:**__
+ ## _**Bootstrap breakpoints:**_
 
  |Breakpoint  | Description  |
  |------------| ------------ |

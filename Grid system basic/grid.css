@@ -1,0 +1,16 @@
+
+body{
+width: 100vw;
+height: 100vh;
+}
+
+
+.sample{
+    background-color: aqua;
+    border: 1px solid gray;
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
