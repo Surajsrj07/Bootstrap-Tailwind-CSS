@@ -4,6 +4,51 @@ width: 100vw;
 height: 100vh;
 }
 
+body::before{
+    content: "XS";
+    color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media (min-width:576px){
+    body::before{
+    content: "SM";
+    color: olive;
+    }
+}
+
+@media (min-width:768px){
+    body::before{
+    content: "MD";
+    color: green;
+    }
+}
+
+
+@media (min-width:992px){
+    body::before{
+    content: "LG";
+    color:orangered;
+    }
+}
+
+@media (min-width:1200px){
+    body::before{
+    content: "XL";
+    color: black;
+    }
+}
+
+@media (min-width:1400px){
+    body::before{
+    content:"XXL";
+    color: blue;
+    }
+}
+
+
+
 
 .sample{
     background-color: aqua;
@@ -14,3 +59,4 @@ height: 100vh;
     font-weight: bold;
     text-align: center;
 }
+
