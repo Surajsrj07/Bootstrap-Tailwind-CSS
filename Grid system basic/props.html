@@ -24,30 +24,92 @@
         row-cols-xs-2
     -->
 
-    <!--Align Items-->
-    <!-- align-items-start
+    <!-- Vertical Alignment -->
+
+    <!-- ROW -->
+
+    <!-- 
+    align-items-start
     align-items-center
-    align-items-end 
-    align-items-baseline
+    align-items-end
+    align-items-baseline 
+
+    align-items-*lg-start
+    align-items-*md-center
+    align-items-*-end
+    align-items-*-baseline 
 -->
+  
+    <!--
+    align-self-start
+    align-self-center
+    align-self-end
+    align-self-baseline
+
+    align-self-*sm-start
+    align-self-*lg-center
+    align-self-*-end
+    align-self-*-baseline
+ -->
 
 
-    <div class="container my-3">
-        <div class="row align-items-baseline ">
-            <div class="col">
-                <div class="sample">1</div>
-            </div>
-            <div class="col">
-                <div class="sample" style="font-size:40px ;">2</div>
-            </div>
-            <div class="col">
-                <div class="sample">3</div>
-            </div>
-            <div class="col">
-                <div class="sample">4</div>
-            </div>
-        </div>
+    <!-- Horizontal alignment -->
+<!-- COLUMN -->
+
+<!-- 
+justify-content-start
+justify-content-center
+justify-content-end
+justify-content-between
+justify-content-around
+justify-content-evenly
+
+justify-content-*-start
+justify-content-*-center
+justify-content-*-end
+justify-content-*-between
+justify-content-*-around
+justify-content-*-evenly
+ -->
+
+order 1 (1-5)
+order-first
+order-last
+order-*-1
+
+
+<div class="container">
+    <div class="row align-items-start">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">4</div>
+
     </div>
+
+    <div class="row align-items-center">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">4</div>
+
+    </div>
+
+    <div class="row justify-content-end">
+        <div class="col-2">1</div>
+        <div class="col-2">2</div>
+        <div class="col-2">3</div>
+
+    </div>
+
+    <div class="row align-items-baseline">
+        <div class="col align-self-start">1</div>
+        <div class="col align-self-center">2</div>
+        <div class="col align-self-end">3</div>
+        <div class="col align-self-baseline">4</div>
+
+    </div>
+</div>
     
 </body>
 </html>
